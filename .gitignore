@@ -63,3 +63,19 @@ functions/service-account.json
 ## ignore generated JavaScript files
 functions/**/*.js
 functions/**/*.js.map
+
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# other
+.firebase
+.nuxt
+public/*
+dist
+.vscode
+.idea
+newrelic_agent.log
+public/index.html
